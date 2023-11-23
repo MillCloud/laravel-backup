@@ -1,8 +1,8 @@
 {
-    "name": "MillCloud/laravel-backup",
+    "name": "millcloud/laravel-backup",
     "description": "A Laravel package to backup your application",
     "keywords": [
-        "spatie",
+        "MillCloud",
         "backup",
         "database",
         "laravel-backup"
@@ -12,8 +12,8 @@
     "authors": [
         {
             "name": "millcloud",
-            "email": "freek@spatie.be",
-            "homepage": "https://spatie.be",
+            "email": "freek@MillCloud.be",
+            "homepage": "",
             "role": "Developer"
         }
     ],
@@ -27,10 +27,10 @@
         "illuminate/notifications": "^10.10.0",
         "illuminate/support": "^10.10.0",
         "league/flysystem": "^3.0",
-        "spatie/db-dumper": "^3.0",
-        "spatie/laravel-package-tools": "^1.6.2",
-        "spatie/laravel-signal-aware-command": "^1.2",
-        "spatie/temporary-directory": "^2.0",
+        "millcloud/db-dumper": "^3.0",
+        "millcloud/laravel-package-tools": "^1.6.2",
+        "millcloud/laravel-signal-aware-command": "^1.2",
+        "millcloud/temporary-directory": "^2.0",
         "symfony/console": "^6.0",
         "symfony/finder": "^6.0"
     },
@@ -49,7 +49,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Spatie\\Backup\\": "src"
+            "MillCloud\\Backup\\": "src"
         },
         "files": [
             "src/Helpers/functions.php"
@@ -57,7 +57,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "Spatie\\Backup\\Tests\\": "tests"
+            "MillCloud\\Backup\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -87,11 +87,11 @@
     "funding": [
         {
             "type": "github",
-            "url": "https://github.com/sponsors/spatie"
+            "url": "https://github.com/sponsors/MillCloud"
         },
         {
             "type": "other",
-            "url": "https://spatie.be/open-source/support-us"
+            "url": "https://MillCloud.be/open-source/support-us"
         }
     ]
 }
